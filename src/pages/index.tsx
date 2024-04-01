@@ -206,7 +206,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                 kethaki
                 </span>
               </h1>
               <p
@@ -215,9 +215,8 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
-              </p>
+                
+              </p>A student studying Information and Communication Technology at the University of Sri Jayawardenepura.
             </div>
             <span
               data-scroll
@@ -225,7 +224,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:kethakikarunathilake@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -446,7 +445,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:kethakikarunathilake@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
