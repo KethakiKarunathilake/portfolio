@@ -10,6 +10,7 @@ import {
   Eye,
   MonitorSmartphone,
 } from "lucide-react";
+
 import { TriangleDownIcon } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
 import Link from "next/link";
@@ -216,7 +217,9 @@ export default function Home() {
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
                 
-              </p>A student studying Information and Communication Technology at the University of Sri Jayawardenepura.
+              </p>
+              Bsc.(Hons) in Information Technology - Undergraduate <br/>
+              University of Sri Jayewardenepura 
             </div>
             <span
               data-scroll
@@ -247,16 +250,11 @@ export default function Home() {
               <TriangleDownIcon className="mt-1 animate-bounce" />
             </div>
           </div>
-          <div
-            data-scroll
-            data-scroll-speed="-.01"
-            id={styles["canvas-container"]}
-            className="mt-14 h-full w-full xl:mt-0"
-          >
-            <Suspense fallback={<span>Loading...</span>}>
-              <Spline scene="/assets/scene.splinecode" />
-            </Suspense>
-          </div>
+         
+          <div className="portfolio-image-container">
+      <img src={require('C:/Users/USER/OneDrive/Desktop/Assignment 1/portfolio/kethu_img.jpeg')} alt="Portfolio" />
+    </div>
+
         </section>
 
         {/* About */}
@@ -267,21 +265,29 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
-              <Link
-                href="https://create.t3.gg/"
-                target="_blank"
-                className="underline"
-              >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
-            </h2>
+            <h3 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+           
+           <p>I am a dedicated student currently pursuing a BSc. (Hons) in Information Technology at the esteemed University of Sri 
+            Jayewardenepura, Sri Lanka. Alongside my academic journey, I am fueled by a diverse range of passions and interests that
+             define me as a multifaceted individual. </p>
+
+              
+
+             <p> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
+to express myself and connect with others on various platforms. Furthermore, my knack for project management underscores my penchant
+ for organization and leadership, qualities that I continuously hone through my academic and extracurricular pursuits.</p> 
+
+ <p> In addition to my technical pursuits, I am deeply drawn to the realm of creative expression. Writing poetry serves as an outlet for
+ my imagination and emotions, reflecting my profound appreciation for the beauty of language and artistic expression. </p> 
+
+<p>Beyond the confines of academia and creativity, I am driven by a profound love for animals. As a dedicated volunteer in animal 
+welfare initiatives, I actively contribute to causes aimed at improving the lives of our furry friends, embodying compassion and 
+empathy in action.</p>
+
+<p>With a blend of technical proficiency, communication finesse, creative flair, and unwavering compassion, I am poised to make 
+meaningful contributions in both professional and personal realms. I am eager to 
+continue my journey of growth, learning, and impact in the pursuit of my passions and aspirations.</p>
+            </h3>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
