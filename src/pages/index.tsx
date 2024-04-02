@@ -252,7 +252,7 @@ export default function Home() {
           </div>
          
           <div className="portfolio-image-container">
-      <img src={require('C:/Users/USER/OneDrive/Desktop/Assignment 1/portfolio/kethu_img.jpeg')} alt="Portfolio" />
+      <img src={require("kethu_img.jpeg")} alt="Portfolio" />
     </div>
 
         </section>
@@ -265,13 +265,11 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h3 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+            <h4 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
            
            <p>I am a dedicated student currently pursuing a BSc. (Hons) in Information Technology at the esteemed University of Sri 
             Jayewardenepura, Sri Lanka. Alongside my academic journey, I am fueled by a diverse range of passions and interests that
              define me as a multifaceted individual. </p>
-
-              
 
              <p> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
 to express myself and connect with others on various platforms. Furthermore, my knack for project management underscores my penchant
@@ -287,7 +285,7 @@ empathy in action.</p>
 <p>With a blend of technical proficiency, communication finesse, creative flair, and unwavering compassion, I am poised to make 
 meaningful contributions in both professional and personal realms. I am eager to 
 continue my journey of growth, learning, and impact in the pursuit of my passions and aspirations.</p>
-            </h3>
+            </h4>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
