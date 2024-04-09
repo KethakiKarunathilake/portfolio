@@ -191,9 +191,9 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>ICT</span>
+              <span className={styles.pill}>Music</span>
+              <span className={styles.pill}>Social works</span>
             </div>
             <div>
               <h1
@@ -207,7 +207,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                 kethaki
+                 Kethaki
                 </span>
               </h1>
               <p
@@ -251,10 +251,16 @@ export default function Home() {
             </div>
           </div>
          
-          <div className="portfolio-image-container">
-      <img src={require("kethu_img.jpeg")} alt="Portfolio" />
-    </div>
-
+          <div
+           // data-scroll
+            //data-scroll-speed="-.01"
+            //id={styles["canvas-container"]}
+           // className="mt-14 h-full w-full xl:mt-0"
+          >
+            <Suspense fallback={<span>Loading...</span>}>
+              <img src= "https://scontent.fcmb10-1.fna.fbcdn.net/v/t39.30808-6/433880495_1631931444301031_8837518557356348561_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9ickh4BRHckAX8bly04&_nc_ht=scontent.fcmb10-1.fna&cb_e2o_trans=q&oh=00_AfBYylIzPmZYEmPPTugNfBLfEjdHosWJ_r1zGO7DxoN5hA&oe=66116B12" />
+            </Suspense>
+          </div>
         </section>
 
         {/* About */}
