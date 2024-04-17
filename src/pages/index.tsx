@@ -275,24 +275,24 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-             <h6 style= {{fontSize:'25px' }}className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]" align='justify'>
+             <h6 style= {{fontSize:'25px', textAlign:'justify'}}className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]" >
            
-           <p>I am a dedicated student currently pursuing a BSc. (Hons) in Information Technology at the esteemed University of Sri 
+           <p style={{marginBottom: '1em'}}>I am a dedicated student currently pursuing a BSc. (Hons) in Information Technology at the esteemed University of Sri 
             Jayewardenepura, Sri Lanka. Alongside my academic journey, I am fueled by a diverse range of passions and interests that
              define me as a multifaceted individual. </p>
 
-             <p> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
+             <p style={{marginBottom: '1em'}}> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
 to express myself and connect with others on various platforms. Furthermore, my knack for project management underscores my penchant
  for organization and leadership, qualities that I continuously hone through my academic and extracurricular pursuits.</p> 
 
- <p> In addition to my technical pursuits, I am deeply drawn to the realm of creative expression. Writing poetry serves as an outlet for
+ <p style={{marginBottom: '1em'}}> In addition to my technical pursuits, I am deeply drawn to the realm of creative expression. Writing poetry serves as an outlet for
  my imagination and emotions, reflecting my profound appreciation for the beauty of language and artistic expression. </p> 
 
-<p>Beyond the confines of academia and creativity, I am driven by a profound love for animals. As a dedicated volunteer in animal 
+<p style={{marginBottom: '1em'}}>Beyond the confines of academia and creativity, I am driven by a profound love for animals. As a dedicated volunteer in animal 
 welfare initiatives, I actively contribute to causes aimed at improving the lives of our furry friends, embodying compassion and 
 empathy in action.</p>
 
-<p>With a blend of technical proficiency, communication finesse, creative flair, and unwavering compassion, I am poised to make 
+<p style={{marginBottom: '1em'}}>With a blend of technical proficiency, communication finesse, creative flair, and unwavering compassion, I am poised to make 
 meaningful contributions in both professional and personal realms. I am eager to 
 continue my journey of growth, learning, and impact in the pursuit of my passions and aspirations.</p>
             </h6> 
