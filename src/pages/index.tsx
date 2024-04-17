@@ -204,6 +204,7 @@ export default function Home() {
                 data-scroll-enable-touch-speed
                 data-scroll-speed=".06"
                 data-scroll-direction="horizontal"
+                className="clash-grotesk text-gradient text-6xl 2xl:text-8xl customColor"
               >
                 <span className="text-6xl tracking-tighter text-foreground 2xl:text-8xl">
                   Hello, I&apos;m

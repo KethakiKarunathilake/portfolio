@@ -84,7 +84,7 @@ export default function Container(props: ContainerProps) {
   const meta = {
     title: "Kethaki",
     description: `Full-stack website developer and TypeScript enthusiast.`,
-    image: "/assets/klogo.png",
+    image: "/assets/klogo1.png",
     type: "website",
     ...customMeta,
   };
@@ -130,14 +130,15 @@ export default function Container(props: ContainerProps) {
         <meta property="og:site_name" content="WendoJ" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
+        <meta property="og:image"  content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="WendoJ" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
+        <meta name="twitter:image"  content={meta.image} />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="icon" href="/assets/klogo1.png" />
       </Head>
       <nav
         className={cn(
