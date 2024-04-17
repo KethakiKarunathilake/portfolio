@@ -238,9 +238,9 @@ export default function Home() {
               </Link>
               <Button
                 variant="outline"
-                onClick={() => scrollTo(document.querySelector("#about"))}
+                onClick={() => window.location.href = "https://drive.google.com/file/d/1vM3MLIhqu7vOUDoL0oXDPm52iOHG3HT_/view?usp=sharing"}
               >
-                Learn more
+                Resume
               </Button>
             </span>
 
