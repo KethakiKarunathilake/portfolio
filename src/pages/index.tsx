@@ -174,7 +174,10 @@ export default function Home() {
   }, []);
 
   return (
+
     <Container>
+
+
       <div ref={refScrollContainer}>
         <Gradient />
 
@@ -207,7 +210,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                 Kethaki
+                 Kethaki Karunathilake
                 </span>
               </h1>
               <p
@@ -258,7 +261,8 @@ export default function Home() {
            // className="mt-14 h-full w-full xl:mt-0"
           >
             <Suspense fallback={<span>Loading...</span>}>
-              <img src= "https://scontent.fcmb10-1.fna.fbcdn.net/v/t39.30808-6/433880495_1631931444301031_8837518557356348561_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9ickh4BRHckAX8bly04&_nc_ht=scontent.fcmb10-1.fna&cb_e2o_trans=q&oh=00_AfBYylIzPmZYEmPPTugNfBLfEjdHosWJ_r1zGO7DxoN5hA&oe=66116B12" />
+              <img src= "https://scontent.fcmb3-2.fna.fbcdn.net/v/t39.30808-6/433880495_1631931444301031_8837518557356348561_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGwp8I-XXGsDA3tv4CoYsu2Ar1v7Yobo9gCvW_tihuj2Ko4zaVJMEyvYm1grI2f2rb0jzr3zJlroWwBOfNOww2e&_nc_ohc=Pai1B2LsHxoAb58bE9U&_nc_zt=23&_nc_ht=scontent.fcmb3-2.fna&cb_e2o_trans=q&oh=00_AfCreIS1q-dqMzvldFTzLE-Vr1FhNIM7lBe6_CzdVVsd3g&oe=6622C6D2" 
+                 style={{ borderRadius: '50%', width: '950px', height: '600px' }}/>
             </Suspense>
           </div>
         </section>
@@ -271,7 +275,7 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h4 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+             <h6 style= {{fontSize:'25px' }}className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]" align='justify'>
            
            <p>I am a dedicated student currently pursuing a BSc. (Hons) in Information Technology at the esteemed University of Sri 
             Jayewardenepura, Sri Lanka. Alongside my academic journey, I am fueled by a diverse range of passions and interests that
@@ -291,7 +295,7 @@ empathy in action.</p>
 <p>With a blend of technical proficiency, communication finesse, creative flair, and unwavering compassion, I am poised to make 
 meaningful contributions in both professional and personal realms. I am eager to 
 continue my journey of growth, learning, and impact in the pursuit of my passions and aspirations.</p>
-            </h4>
+            </h6> 
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div

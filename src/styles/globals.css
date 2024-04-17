@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    --background: 240 27.9% 5.7%;
-    --foreground: 210 40% 98%;
+    --background: 750 27.9% 5.7%;
+    --foreground: 400 40% 98%; 
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -108,3 +108,4 @@
     animation: blink 1s infinite;
   }
 }
+
