@@ -37,10 +37,11 @@ const aboutStats = [
 const projects = [
   {
     title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
+    description: "My portfolio web site",
+    image: "/assets/webss.png",
     href: "https://unqueue.shop/",
   },
+  /*
   {
     title: "InfiniteVPS",
     description: "High performance VPS hosting solution",
@@ -64,7 +65,7 @@ const projects = [
     description: "My personal website",
     image: "/assets/portfolio.webm",
     href: "https://github.com/wendoj/portfolio",
-  },
+  }, */
 ];
 
 const services = [
@@ -385,12 +386,7 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
                 <CarouselPrevious />
                 <CarouselNext />
               </Carousel>
-              <div className="py-2 text-center text-sm text-muted-foreground">
-                <span className="font-semibold">
-                  {current} / {count}
-                </span>{" "}
-                projects
-              </div>
+              
             </div>
           </div>
         </section>
