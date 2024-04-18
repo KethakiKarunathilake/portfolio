@@ -70,25 +70,26 @@ const projects = [
 
 const services = [
   {
-    service: "Frontend Development",
+    service: "Singing",
     description:
-      "Creating stellar user interfaces and web experiences using the latest technologies.",
+      "I have done diploma in Bhatkhande for singing",
     icon: Code2,
   },
   {
-    service: "UX Design",
+    service: "Playing musical instruments",
     description:
-      "Building intuitive, user-centric designs that drive engagement and conversion.",
+      "I can play many musical instruments like violin, guitar, sitar, tabla, trombone.",
     icon: Frame,
   },
   {
-    service: "SEO Optimization",
+    service: "Leadership",
     description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
-    icon: SearchCheck,
+      "I can lead a team and help them to achieve their goals. I can also help them to achieve their goals. I have a lot of experience holding leadership responsibilities in many societies and companies.",
+    icon: ChevronRight,
+    
   },
   {
-    service: "Responsive Design",
+    service: "Announcing",
     description:
       "Designing websites that look and perform equally well on all devices and screen sizes.",
     icon: MonitorSmartphone,
