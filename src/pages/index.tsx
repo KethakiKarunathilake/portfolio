@@ -29,9 +29,9 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
-  { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Years of experience in teaching (ICT)", value: "4+" , color:"#c70cbe" },
+  { label: "Projects in ICT", value: "2+" },
+  { label: "Working in organizations", value: "5+" },
 ];
 
 const projects = [
@@ -206,11 +206,11 @@ export default function Home() {
                 data-scroll-direction="horizontal"
                 className="clash-grotesk text-gradient text-6xl 2xl:text-8xl customColor"
               >
-                <span className="text-6xl tracking-tighter text-foreground 2xl:text-8xl">
+                <span  className="text-6xl tracking-tighter text-foreground 2xl:text-8xl">
                   Hello, I&apos;m
                   <br />
                 </span>
-                <span style= {{color:"#c70cbe"}} className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
+                <span style= {{color:"#f10e98" }} className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
                  Kethaki Karunathilake
                 </span>
               </h1>
@@ -232,7 +232,7 @@ export default function Home() {
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
               <Link href="mailto:kethakikarunathilake@gmail.com" passHref>
-                <Button style={{backgroundColor:"#c70cbe"}}>
+                <Button >
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
               </Link>
@@ -282,14 +282,14 @@ export default function Home() {
             Jayewardenepura, Sri Lanka. Alongside my academic journey, I am fueled by a diverse range of passions and interests that
              define me as a multifaceted individual. </p>
 
-             <p style={{marginBottom: '1em' , color: '#c70cbe'}}> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
+             <p style={{marginBottom: '1em' , color: '#f10e98'}}> My innate ability to effectively communicate is demonstrated through my passion for singing and announcing, which have allowed me 
 to express myself and connect with others on various platforms. Furthermore, my knack for project management underscores my penchant
  for organization and leadership, qualities that I continuously hone through my academic and extracurricular pursuits.</p> 
 
  <p style={{marginBottom: '1em'}}> In addition to my technical pursuits, I am deeply drawn to the realm of creative expression. Writing poetry serves as an outlet for
  my imagination and emotions, reflecting my profound appreciation for the beauty of language and artistic expression. </p> 
 
-<p style={{marginBottom: '1em' , color: '#c70cbe'}}>Beyond the confines of academia and creativity, I am driven by a profound love for animals. As a dedicated volunteer in animal 
+<p style={{marginBottom: '1em' , color: '#f10e98'}}>Beyond the confines of academia and creativity, I am driven by a profound love for animals. As a dedicated volunteer in animal 
 welfare initiatives, I actively contribute to causes aimed at improving the lives of our furry friends, embodying compassion and 
 empathy in action.</p>
 
