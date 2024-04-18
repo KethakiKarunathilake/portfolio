@@ -11,6 +11,8 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
+import { FaGuitar,FaPencilAlt ,  FaUsers , FaBullhorn,FaCode} from 'react-icons/fa';
+
 import { TriangleDownIcon } from "@radix-ui/react-icons";
 import Spline from "@splinetool/react-spline";
 import Link from "next/link";
@@ -70,35 +72,38 @@ const projects = [
 
 const services = [
   {
-    service: "Singing",
+    service: "Singing & Playing musical instruments",
     description:
-      "I have done diploma in Bhatkhande for singing",
-    icon: Code2,
+      "I have done diploma in Bhatkhande for singing.As well as I can play many musical instruments like violin, guitar, sitar, tabla, trombone.",
+    icon: FaGuitar,
   },
+
   {
-    service: "Playing musical instruments",
+    service: "Creative writing",
     description:
-      "I can play many musical instruments like violin, guitar, sitar, tabla, trombone.",
-    icon: Frame,
+      "I have the ability to compose Sinhala songs and poems creatively. I have won many competitions for that.",
+    icon: FaPencilAlt,
   },
+
   {
     service: "Leadership",
     description:
-      "I can lead a team and help them to achieve their goals. I can also help them to achieve their goals. I have a lot of experience holding leadership responsibilities in many societies and companies.",
-    icon: ChevronRight,
+      "I can lead a team and help them to achieve their goals.I have a lot of experience holding leadership responsibilities in many societies and companies.",
+    icon: FaUsers,
     
   },
   {
     service: "Announcing",
     description:
-      "Designing websites that look and perform equally well on all devices and screen sizes.",
-    icon: MonitorSmartphone,
+      "The announcing field is one of my favorite fields. I hope to further develop my announcing skills.",
+    icon: FaBullhorn ,
   },
+  
   {
-    service: "Backend Development",
+    service: "Web development",
     description:
-      "Developing robust, scalable server-side logic for a wide range of web applications.",
-    icon: Eye,
+      "I'm not an expert in web development, but I'm trying to improve that skill and learn for it",
+    icon: FaCode,
   },
 ];
 
@@ -415,7 +420,7 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
                 <h2 className="text-4xl font-medium tracking-tight">
                 Would you like to know about my talents?
                   <br />
-                  <span className="text-gradient clash-grotesk tracking-normal">
+                  <span className="text-gradient clash-grotesk tracking-normal" style={{ color: '#f10e98' }}>
                   Here I am going to tell about them..
                   </span>
                 </h2>
@@ -448,16 +453,15 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
             className="flex flex-col items-center justify-center rounded-lg bg-gradient-to-br from-primary/[6.5%] to-white/5 px-8 py-16 text-center xl:py-24"
           >
             <h2 className="text-4xl font-medium tracking-tighter xl:text-6xl">
-              Let&apos;s work{" "}
-              <span className="text-gradient clash-grotesk">together.</span>
+            We will meet again;{" "}
+              <span className="text-gradient clash-grotesk">With love.</span>
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;m currently available for freelance work and open to
-              discussing new projects.
+            If you want to contact me, click the button below.
             </p>
-            <Link href="mailto:kethakikarunathilake@gmail.com" passHref>
-              <Button className="mt-6">Get in touch</Button>
-            </Link>
+           
+              <Button className="mt-6" onClick={() => window.open("https://www.linkedin.com/in/kethaki-karunathilake")} style={{ backgroundColor: '#f10e98' , color: 'white' }}>Get in touch</Button>
+            
           </div>
         </section>
       </div>
