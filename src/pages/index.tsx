@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Unqueue",
     description: "My portfolio web site",
-    image: "/assets/webss.png",
+    image: "/assets/webiss.png",
     href: "https://unqueue.shop/",
   },
   /*
@@ -334,15 +334,14 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
             </div>
           </div>
           <div data-scroll data-scroll-speed=".4" className="my-64">
-            <span className="text-gradient clash-grotesk text-sm font-semibold tracking-tighter">
+            <span style={{ fontSize: '50px', color: '#f10e98' }} className="text-gradient clash-grotesk text-sm font-semibold tracking-tighter">
               ✨ Projects
             </span>
             <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+            My digital endeavors
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+            Although there are several projects that I have done as an undergraduate, I have presented my successful project here.
             </p>
 
             {/* Carousel */}
@@ -353,7 +352,7 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
                     <CarouselItem key={project.title} className="md:basis-1/2">
                       <Card id="tilt">
                         <CardHeader className="p-0">
-                          <Link href={project.href} target="_blank" passHref>
+                         
                             {project.image.endsWith(".webm") ? (
                               <video
                                 src={project.image}
@@ -366,13 +365,15 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
                               <Image
                                 src={project.image}
                                 alt={project.title}
-                                width={600}
+                                width={1000}
                                 height={300}
                                 quality={100}
                                 className="aspect-video h-full w-full rounded-t-md bg-primary object-cover"
                               />
                             )}
-                          </Link>
+                          
+
+                          
                         </CardHeader>
                         <CardContent className="absolute bottom-0 w-full bg-background/50 backdrop-blur">
                           <CardTitle className="border-t border-white/5 p-4 text-base font-normal tracking-tighter">
@@ -411,16 +412,13 @@ continue my journey of growth, learning, and impact in the pursuit of my passion
             >
               <div className="flex flex-col py-6 xl:p-6">
                 <h2 className="text-4xl font-medium tracking-tight">
-                  Need more info?
+                Would you like to know about my talents?
                   <br />
                   <span className="text-gradient clash-grotesk tracking-normal">
-                    I got you.
+                  Here I am going to tell about them..
                   </span>
                 </h2>
-                <p className="mt-2 tracking-tighter text-secondary-foreground">
-                  Here are some of the services I offer. If you have any
-                  questions, feel free to reach out.
-                </p>
+               
               </div>
               {services.map((service) => (
                 <div
